@@ -1,0 +1,146 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+section{
+    padding: 40px 0;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration:  none;
+    color: inherit;
+}
+
+a.button{
+    padding: 10px 16px;
+    background-color: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.section-title{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input{
+    padding: 10px 14px;
+    border: 1px solid #616161;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type=submit]{
+    border: none;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 16px;
+}
+
+.error{
+    padding: 0 0 20px 0;
+    color: tomato;
+}
+
+.books{
+    max-width: 900px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book{
+    display: flex;
+    gap: 50px;
+
+    border: 1px solid cornflowerblue;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.book-img{
+    width: 450px;
+}
+
+.books-img{
+    width: 150px;
+    height: 100%;
+}
+
+.book-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.book-text{
+    font-size: 14px;
+}
+
+.book-price{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.book-author{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #656565;
+}
+
+.button-update{
+    padding-top: 20px;
+}
+
+.top{
+    padding-top: 20px;
+}
+
+
